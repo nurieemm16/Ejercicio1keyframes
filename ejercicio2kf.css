@@ -1,0 +1,31 @@
+h1 {
+    padding: 1rem;
+    margin:1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid blueviolet;
+    color: lightgreen;
+
+}
+
+main {
+    padding: 1rem;
+    margin:1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.caja {
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+}
+
+
+.caja:hover {
+    border-radius: 50%;
+    background-color: lightgreen;
+    transition: 5s;
+}
